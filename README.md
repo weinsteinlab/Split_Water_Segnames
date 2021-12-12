@@ -5,3 +5,7 @@ Charmm-gui makes all the TIP3 waters the same segment. If there are more than 99
 To USE:
 
 /path/to/vmd -dispdev text -e split_waters.tcl -args psf_name.psf pdb_name.pdb
+
+output:
+
+water_split.psf and water_split.pdb will be made in the run directory. These contain the entire system, with the waters renamed.
